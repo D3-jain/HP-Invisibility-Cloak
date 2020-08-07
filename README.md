@@ -1,9 +1,9 @@
 # HP-Invisibility-Cloak
 
 ## Objective
-<p><img align="right" src="HP.gif">
+<img align="right" src="HP.gif">
   The main objective of this project is to obtain a end result as shown here in the right. This is a gif from the movie "Harry Potter and The Sorcerer's Stone". The idea of how to implement this idea is inspired from a blog from the website machinelearningman.com. 
-</p>
+
 
 ## Logic Implemented
 <p><img align="right" src="harry_potter.gif">
