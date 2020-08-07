@@ -6,7 +6,7 @@
 <br><br><br><br>
 
 ## Logic Implemented
-<img align="right" height="300" width="350" src="harry_potter.gif">
+<img align="right" height="350" width="350" src="harry_potter.gif">
 The logic behind this implementation can be explained in the following 6 steps:
   
 * We capture the background for the range of 60 so that it can later be used to replace the area covered by the cloak.
