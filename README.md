@@ -8,11 +8,11 @@
 ## Logic Implemented
 <img align="right" src="harry_potter.gif">
   The logic behind this implementation can be explained in the following 6 steps:
-  1. We capture the background for the range of 60 so that it can later be used to replace the area covered by the cloak.
-  2. Start reading the captured video frame by frame to detect the cloak.
-  3. Since our cloak is red in color we use two ranges of red color to detect it and mask it and the final mask is obtained by adding both.
-  4. Using the mask obtained that represents the cloak area, obtain the remaining area of the frame as a mask using bitwise_not operator.
-  5. We pass in the pixel values of frame image in inverted mask and background image in cloak area mask using bitwise_and operator, because this will ensure that the unmasked area in both mask will not be affected during this operation.
-  6. Finally above obtained results are added equally using "addWeighted" operator and the finaly result is written as an avi file.
+  * We capture the background for the range of 60 so that it can later be used to replace the area covered by the cloak.
+  * Start reading the captured video frame by frame to detect the cloak.
+  * Since our cloak is red in color we use two ranges of red color to detect it and mask it and the final mask is obtained by adding both.
+  * Using the mask obtained that represents the cloak area, obtain the remaining area of the frame as a mask using bitwise_not operator.
+  * We pass in the pixel values of frame image in inverted mask and background image in cloak area mask using bitwise_and operator, because this will ensure that the unmasked area in both mask will not be affected during this operation.
+  * Finally above obtained results are added equally using "addWeighted" operator and the finaly result is written as an avi file.
   This process continues to take place untill webcam returns False on cap.read() or a user enter "q" from his Keyboard.
 
